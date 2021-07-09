@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements'
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks  } from './NavbarElements'
 
 //navbar component which will be in the index route hence why its index.jsx
 
@@ -12,13 +12,13 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks }
 
 
 */
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
         <Nav>
             <NavbarContainer>
                 <NavLogo to='/'>Vinny Vilasboa</NavLogo>
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
@@ -26,16 +26,16 @@ const Navbar = () => {
                         <NavLinks to="about">About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="about">Work</NavLinks>
+                        <NavLinks to="work">Work</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="about">Resume</NavLinks>
+                        <NavLinks to="resume">Resume</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="about">Connect</NavLinks>
+                        <NavLinks to="connect">Connect</NavLinks>
                     </NavItem>
                 </NavMenu>
-
+            
             </NavbarContainer>
 
         </Nav>
