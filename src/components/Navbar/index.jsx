@@ -29,10 +29,10 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="work">Work</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="resume">Resume</NavLinks>
+                        <NavLinks to="connect">Connect</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="connect">Connect</NavLinks>
+                        <NavLinks onClick={event =>  window.open('https://docs.google.com/document/d/1ARud0I6XNcC-zbI-tn2dZObppLNx9yI7zfXiZnCU77Y/edit?usp=sharing')}>Resume</NavLinks>
                     </NavItem>
                 </NavMenu>
             
