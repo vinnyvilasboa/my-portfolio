@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: "I'm a NYC based Full stack developer with a non-traditional background. I came from the health, fitness, and leadership world - all of which have been a passion to me but what drives me is problem solving, team building and just seeing how things tick. I love creating web designs around technology, films, and anything else to improve the user experience. ",
     imgStart: false,
     img: require('../../images/undraw_portfolio_website_lidw.svg'),
-    alt: 'aboutme',
+    alt: 'aboutme!',
     dark: true,
     primary: true,
     darkText: false,
