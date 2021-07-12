@@ -84,7 +84,7 @@ export const homeObjFive = {
 };
 
 export const homeObjSeven = {
-    id: 'about',
+    id: 'connect',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
