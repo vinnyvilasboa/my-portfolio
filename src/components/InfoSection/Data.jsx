@@ -12,7 +12,6 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-
 };
 
 export const homeObjTwo = {
@@ -41,7 +40,7 @@ export const homeObjThree = {
     headline: "We're not really strangers",
     description: " A full MERN stack SpaceX fan based app where it displays information from crew members, satellites, rockets with real time Starlink location and height based on a SPACEX API rendered a globe",
     imgStart: false,
-    img: require('../../images/me123.png').default,
+    img: require('../../images/WNRS.png').default,
     alt: 'aboutme',
     dark: false,
     primary: false,

@@ -15,7 +15,7 @@ background: #010606;
 @media screen and (max-width: 480px){
     height: 1300px;
 }
-`
+`;
 
 export const ServicesWrapper = styled.div`
 max-width: 1000px;
@@ -31,7 +31,7 @@ padding: 0 50px;
 }
 
 @media screen and (max-width: 768px){
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 0 20px;
 }
 `
