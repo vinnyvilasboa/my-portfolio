@@ -38,7 +38,7 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: 'MY RECENT WORK',
     headline: "We're not really strangers",
-    description: " A full MERN stack SpaceX fan based app where it displays information from crew members, satellites, rockets with real time Starlink location and height based on a SPACEX API rendered a globe",
+    description: " An app developed to connect people with deeper and more meaningful questions. Based off the popular card game 'WNRS'",
     imgStart: false,
     img: require('../../images/WNRS.png').default,
     alt: 'aboutme',
