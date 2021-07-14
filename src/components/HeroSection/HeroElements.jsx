@@ -52,7 +52,7 @@ export const HeroH1 = styled.h1`
 color: white;
 font-size: 70px;
 text-align: center;
-text-shadow: 2px 2px 4px cyan;
+text-shadow: 7px 5px 10px cyan;
 
 
 @media screen and (max-width: 768px) {

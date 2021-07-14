@@ -2,16 +2,16 @@
 import styled from 'styled-components'
 //All nav elements will live here such as nav
 import {Link as LinkRouter} from 'react-router-dom'
-import {Link as LinkScroll} from 'react-router-dom'
+import {Link as LinkScroll} from 'react-scroll'
 
 // import {Link} from 'react-scroll'
 
 
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({scrollNav }) => (scrollNav ? '#010606' : 'transparent')};
     height: 80px;
-    
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,10 +39,10 @@ export const NavbarContainer = styled.div`
 
     //the below is going to be a link so you need to set a path for it when setting it in index
 export const NavLogo = styled(LinkRouter)`
-    color: #fff;
+    color: cyan;
     justify-self: flex;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
@@ -88,7 +88,6 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
-    font-family: monaco;
 `
 
 //compared to the link that moves from page to page -- this one is just scroll version
@@ -102,7 +101,7 @@ export const NavLinks = styled(LinkScroll)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid cyan;
     }
 
 `

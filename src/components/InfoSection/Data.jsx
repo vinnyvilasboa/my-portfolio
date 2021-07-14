@@ -4,10 +4,11 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '',
-    headline: 'About Me',
-    description: "I'm a NYC based Full stack developer with a non-traditional background. I came from the health, fitness, and leadership world - all of which have been a passion to me but what drives me is problem solving, team building and just seeing how things tick. I love creating web designs around technology, films, and anything else to improve the user experience. ",
+    headline: 'About Me' ,
+    description: "I come from a non-traditional background of nutritional coaching and personal training. However my passion has always been helping people, problem solving, team building and overall seeing how things tick - which I believe is what Software Engineering is all about. I love creating web designs around space, the film industry, health & fitness, and any technology to improve someone's life.",
+    
     imgStart: false,
-    img: require('../../images/profile.svg').default,
+    img: require('../../images/sitting.svg').default,
     alt: 'aboutme!',
     dark: true,
     primary: true,
@@ -22,6 +23,7 @@ export const homeObjTwo = {
     topLine: 'MY RECENT WORK',
     headline: 'FAKEX',
     description: " A full MERN stack SpaceX fan based app where it displays information from crew members, satellites, rockets with real time Starlink location and height based on a SPACEX API rendered a globe",
+    
     imgStart: true,
     img: require('../../images/fakex.png').default,
     alt: 'aboutme',
