@@ -32,7 +32,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="services" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                     Skills
                     </SidebarLink>
-                    <SidebarLink to="work1" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects
+                    <SidebarLink to="work4" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects
                     </SidebarLink>
                     <SidebarLink onClick={event =>  window.open('https://docs.google.com/document/d/1ARud0I6XNcC-zbI-tn2dZObppLNx9yI7zfXiZnCU77Y/edit?usp=sharing')}>Resume
                     </SidebarLink>

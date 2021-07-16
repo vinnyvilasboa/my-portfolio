@@ -3,7 +3,6 @@ import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Top
 import {Button} from '../ButtonElement'
 import {Link} from 'react-router-dom'
 import PowerList from '../PowerList';
-// import about from '../../images/svg-4.svg'
 
 const InfoSection = ({ lightBg,
     imgStart,
@@ -28,7 +27,7 @@ const InfoSection = ({ lightBg,
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
-                                {/* <PowerList/> */}
+                                
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>

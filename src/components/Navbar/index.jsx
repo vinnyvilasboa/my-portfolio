@@ -52,7 +52,7 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}> Skills</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="work1" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects</NavLinks>
+                        <NavLinks to="work4" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks onClick={event =>  window.open('https://docs.google.com/document/d/1ARud0I6XNcC-zbI-tn2dZObppLNx9yI7zfXiZnCU77Y/edit?usp=sharing')}>Resume</NavLinks>
