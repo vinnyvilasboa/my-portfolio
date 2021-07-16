@@ -6,7 +6,6 @@ export const homeObjOne = {
     topLine: '',
     headline: 'About Me' ,
     description: "I come from a non-traditional background of nutritional coaching and personal training. However my passion has always been helping people, problem solving, team building and overall seeing how things tick - which I believe is what Software Engineering is all about. I love creating web designs around space, the film industry, health & fitness, and any technology to improve someone's life.",
-    
     imgStart: false,
     img: require('../../images/sitting.svg').default,
     alt: 'aboutme!',
@@ -22,8 +21,8 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'MY RECENT WORK',
     headline: 'FAKEX',
-    description: " A full MERN stack SpaceX fan based app where it displays information from crew members, satellites, rockets with real time Starlink location and height based on a SPACEX API rendered a globe",
-    
+    link: 'fakex-react.herokuapp.com',
+    description: " A full MERN stack SpaceX fan based app where it displays information from crew members, satellites, rockets with real time Starlink location and height based on a SPACEX API rendered a globe",   
     imgStart: true,
     img: require('../../images/fakex.png').default,
     alt: 'aboutme',

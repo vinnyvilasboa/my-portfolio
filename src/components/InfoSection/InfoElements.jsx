@@ -84,6 +84,9 @@ font-size: 30px;
 line-height: 40px;
 color: black;
 color: ${({darkText})=> (darkText ? '#010606' : '#fff')};
+@media screen and (max-width: 480px) {
+    font-size: 18px;
+}
 `
 
 export const ImgWrap = styled.div`
