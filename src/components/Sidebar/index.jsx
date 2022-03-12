@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from './SidebarElements'
-import { animateScroll as scroll } from 'react-scroll';
+// import { animateScroll as scroll } from 'react-scroll';
 
 const Sidebar = ({isOpen, toggle}) => {
     const [scrollNav, setScrollNav] = useState(false);

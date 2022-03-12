@@ -3,17 +3,9 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks  } from './NavbarElements'
 import {animateScroll as scroll} from 'react-scroll';
-import {Button} from '../ButtonElement'
-//navbar component which will be in the index route hence why its index.jsx
+// import {Button} from '../ButtonElement'
+// import Resume from '../myresume.pdf'
 
-/*
-1.Create Navbar function component which is passed as whole into app.js to be displayed 
-2. inside the navbar exists a few more components
-3. the main ones right now being nav and nav logo. each one has its own unique component
-4. When navlogo is clicked it just redirects back to home route. 
-
-
-*/
 const Navbar = ({toggle}) => {
 
     const [scrollNav, setScrollNav] = useState(false)

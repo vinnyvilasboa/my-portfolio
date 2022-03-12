@@ -22,14 +22,15 @@ const Services = () => {
                         •Node
                         •Express
                         •Mongoose
-                        •Django
-                        •Flask </ServicesP>
+                        •NextJS
+                     </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Databases</ServicesH2>
                     <ServicesP>
                         •MongoDB
+                        •Atlas
                         •SQL
                         •Sequelize
                         •PostgreSQL </ServicesP>

@@ -1,8 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './InfoElements';
-import {Button} from '../ButtonElement'
-import {Link} from 'react-router-dom'
-import PowerList from '../PowerList';
+
 
 const InfoSection = ({ lightBg,
     imgStart,
@@ -13,13 +11,13 @@ const InfoSection = ({ lightBg,
     description,
     img,
     alt,
-    id,link}) => {
+    id}) => {
 
-        const [hover, setHover] = useState(false);
+        // const [hover, setHover] = useState(false);
 
-        const onHover = () => {
-          setHover(!hover);
-        }
+        // const onHover = () => {
+        //   setHover(!hover);
+        // }
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
